@@ -16,7 +16,7 @@ Pusat dokumentasi ini menyimpan seluruh cetak biru, standar kualitas, dan pandua
 - **[Repository Plan](./repository-plan/README.md)**: Dekomposisi total dari dokumentasi resmi ke dalam arsitektur 9-Rack.
 
 ### 3. Spesialisasi (Specializations)
-- **[RAK-10: Enterprise Design Patterns](../RAK-10-ENTERPRISE-DESIGN-PATTERNS/README.md)**: Pola desain skala besar dengan kekuatan Type System.
+- **[RAK-10: Enterprise Design Patterns](../RAK-10-ENTERPRISE-DESIGN-PATTERNS/README.md)**: Pola desain skala besar dan pemodelan tipe data menggunakan kekuatan Type System untuk keamanan jangka panjang.
 
 ### 4. Narasi & Esensi
 - **[TypeScript Origins](./typescript-origins.md)**: Narasi mendalam tentang alasan Microsoft menciptakan TypeScript.
