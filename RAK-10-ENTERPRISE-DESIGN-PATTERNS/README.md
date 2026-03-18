@@ -13,4 +13,11 @@ Mengapa TS menjadi standar di perusahaan besar:
 3. **Integration**: Kekuatan autocomplete di IDE meminimalisir kesalahan kognitif.
 
 ---
+
+## 🌐 Architectural Nexus (Jembatan Master Plan)
+Materi di Rak ini terhubung langsung dengan komponen lain dalam ekosistem [Master Plan Senior](../../catatan/Master-Plan-Senior.md):
+- **Pattern Architect**: Rujukan utama ke [Design Patterns Library](../../catatan/05-Architecture-Hubs/Design-Patterns-Library.md).
+- **Enterprise Logic**: Implementasi di proyek [System-Design-Architect-Hub](../../catatan/05-Architecture-Hubs/System-Design-Architect-Hub.md).
+
+---
 *Kembali ke [Documentation Hub](../docs/README.md)*
