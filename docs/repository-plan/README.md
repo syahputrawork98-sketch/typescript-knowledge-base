@@ -6,9 +6,9 @@ Dokumen ini adalah cetak biru (blueprint) modular yang mendekomposisi **seluruh*
 
 ---
 
-## 🏗 Justifikasi Teknis (The 5-Rack Logic)
+## 🏗 Justifikasi Teknis (Source-Driven Architecture)
 
-Arsitektur ini didesain berdasarkan **filosofi teknis TypeScript** yang berfokus pada *structural typing*, *type erasure*, dan integrasi mendalam dengan ekosistem JavaScript modern.
+Arsitektur ini didesain menggunakan pendekatan **Source-Driven Architecture**, di mana dekomposisi Rak disesuaikan secara organik dengan struktur sumber dokumentasi resmi TypeScript. Filosofi teknisnya berfokus pada *structural typing*, *type erasure*, dan integrasi mendalam dengan ekosistem JavaScript modern.
 
 ### 1. RAK-01: Setup & Onboarding (The Zero-Entry Barrier)
 - **Justifikasi**: TypeScript seringkali dianggap sulit dikonfigurasi bagi pemula. Rak ini fokus pada "Get Productive Fast" dengan menyediakan jalur khusus berdasarkan latar belakang pengembang (JS, Java, C#, atau Functional). Ini memastikan hambatan masuk minimal sebelum menyentuh logika tipe yang lebih dalam.
@@ -71,9 +71,12 @@ Arsitektur ini didesain berdasarkan **filosofi teknis TypeScript** yang berfokus
 
 ---
 
-## 🔄 Protokol Sinkronisasi (Quarterly Sync Rule)
+## 🛠 Protokol PPM V4 (Rules & Steps)
 
-Mengingat rilis TypeScript yang sangat agresif (rata-rata setiap 3 bulan), repository plan ini wajib mengikuti protokol pembaruan berikut:
+Untuk menjaga kualitas "Gold Standard", setiap pengembangan dalam repository ini wajib mengikuti protokol PPM V4:
+
+1.  **Hierarchy Consistency**: Struktur folder wajib mengikuti urutan `Rak -> Sub-Rak -> Buku -> Bab -> Section`.
+2.  **Quarterly Sync Rule**: Mengingat rilis TypeScript yang sangat agresif (rata-rata setiap 3 bulan), repository plan ini wajib mengikuti protokol pembaruan berikut:
 
 1.  **Iterative Audit**: Setiap rilis `vX.Y`, `repository-plan` harus diaudit terhadap [Official TS Release Notes](https://www.typescriptlang.org/docs/handbook/release-notes/overview.html).
 2.  **Refactor Minimal**: Masukkan fitur baru ke dalam Rak/Buku yang ada jika memungkinkan, atau buat Buku baru dalam SR-01/02 di RAK-05 sebagai "Incubator" sebelum dipindah ke inti Handbook.
