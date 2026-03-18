@@ -8,9 +8,11 @@ Selamat datang di pusat kontrol dokumentasi **TypeScript Knowledge Base**. Folde
 Berisi detail dekomposisi untuk setiap Rak (Level 2) hingga ke level Bab (Level 5).
 
 ### 2. Intisari & Filosofi
-- **[Filosofi TypeScript](./typescript-philosophy.md)**: Esensi "The Transformer" 🤖.
-- **[Sejarah & Evolusi TypeScript](./typescript-history.md)**: Perjalanan dari 2012 hingga sekarang.
-- **[Mengapa TypeScript? (Why & When)](./why-typescript.md)**: Panduan rasional penggunaan TS.
+- **[Repository Plan](./repository-plan/README.md)**: Dekomposisi total dari dokumentasi resmi ke dalam arsitektur 9-Rack.
+- **[TypeScript Origins](./typescript-origins.md)**: Narasi mendalam tentang alasan Microsoft menciptakan TypeScript.
+- **[TypeScript History](./history.md)**: Jejak langkah evolusi fitur per versi.
+- **[TypeScript Philosophy](./philosophy.md)**: Membedah dasar-dasar pemikiran di balik desain bahasa.
+- **[Why TypeScript?](./why-typescript.md)**: Rasionalitas teknis menggunakan TS di era modern.
 
 ### 3. Panduan Struktur & Standar
 Untuk menjaga kualitas "Gold Standard", pastikan Anda mengikuti panduan berikut:
