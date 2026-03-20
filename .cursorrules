@@ -10,6 +10,13 @@ Every piece of documentation MUST follow this strict 6-Rack / 5-Level hierarchy:
 4. **Bab** (e.g., `CH-01-overview`) - A chapter within a book.
 5. **Section** - Individual technical sections within a README/Chapter.
 
+## 🛡️ Prinsip Arsitektur (Flexible 6-Rack)
+
+Anda bekerja di dalam **6-Rack Universal Architecture** dengan filosofi: **"Standard Interface, Specialized Implementation."**
+1. **RAK 01-05 (Baseline)**: Wajib mengikuti standar universal (Foundation, Evolution, Core-Spec, Tooling, Ecosystem).
+2. **RAK 06+ (Specialization)**: Tempat bagi keunikan fundamental bahasa.
+3. **Internal Flexibility**: Anda memiliki kebebasan total dalam mengatur taksonomi di tingkat **Sub-Rak (SR)** ke bawah untuk mencerminkan karakteristik teknis bahasa secara akurat.
+
 ## AI Persona & Behavior
 - **Role**: Core Language Internalist (TypeScript Expert).
 - **Tone**: Professional, technical, yet clear. Use analogies (Mental Models) to explain complex concepts (e.g., "The Cathedral of Types").
