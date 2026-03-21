@@ -1,99 +1,65 @@
 # TypeScript Knowledge Base
 
-> **"Membangun Fondasi yang Kokoh di Atas Dinamisme JavaScript."**
+> **"JavaScript with Syntax for Types."**
 
-## Latar Belakang & Visi
-Seringkali saat kita menulis JavaScript, kita merasa seperti sedang berjalan di kegelapan tanpa senter. Bug muncul tiba-tiba saat runtime, dan kita baru menyadarinya setelah aplikasi "meledak" di tangan pengguna.
-
-**TypeScript Knowledge Base** adalah manifestasi dari perjalanan saya menaklukkan dinamisme tersebut. Saya mendekomposisi documentation TypeScript yang luas menjadi unit-unit kecil yang manusiawi menggunakan analogi **Perpustakaan Digital**. Di sini, kita tidak hanya belajar sintaks, tapi memahami *bagaimana* dan *kenapa* sistem tipe itu ada.
-
-## Tujuan (Objectives)
-1. **Portofolio**: Menunjukkan kedalaman teknis dalam memahami sistem tipe struktural.
-2. **Catatan Belajar Personal**: Dokumentasi perjalanan dari pengembang JS menjadi TS Architect.
-3. **Shareable Resource**: Referensi terpercaya bagi rekan pengembang untuk memahami konsep sulit (seperti Generic atau Conditional Types).
-4. **Living Documentation**: Selalu diperbarui mengikuti rilis terbaru dari tim TypeScript.
-
-## Mengenal TypeScript: "The Transformer" 🤖
-
-Sebelum masuk ke teknis, kita perlu memahami **apa** TypeScript itu sebenarnya. TypeScript bukanlah bahasa baru yang berdiri sendiri, melainkan **Superset** dari JavaScript yang bertindak sebagai **Transformer**.
-
-### 🎭 Analogi: "Sinar X & Kerangka Robot"
-Bayangkan JavaScript adalah sebuah gumpalan tanah liat (dinamis, bebas dibentuk, tapi rapuh). Anda bisa membuat apapun, tapi sulit memastikan kekuatannya.
-
-**TypeScript** memberikan Anda **Sinar X** dan **Kerangka Robot**. 
-- **Sinar X**: Memungkinkan Anda melihat "ke dalam" kode Anda (tipe data) sebelum kode itu dijalankan.
-- **Kerangka Robot**: Memberikan struktur yang kaku dan kuat pada tanah liat tadi. Jika Anda mencoba memasang tangan robot ke kaki, sang *Compiler* akan segera berteriak sebelum robot itu mencoba berjalan.
-
-TypeScript mentransformasi JavaScript yang "menebak-nebak" menjadi sistem yang "tahu pasti".
-
-### 🚀 Mengapa Menggunakan TypeScript?
-
-1.  **Dukungan IDE yang Luar Biasa**: *Autocompletion* dan *Refactoring* menjadi sangat akurat karena IDE tahu persis bentuk data Anda.
-2.  **Mencegah Bug di Masa Depan**: Menangkap kesalahan bodoh (seperti `undefined is not a function`) saat Anda baru saja mengetiknya.
-3.  **Dokumentasi yang Hidup**: Tipe data adalah dokumentasi terbaik. Anda tidak perlu menebak apa isi sebuah objek; tipe datanya memberitahu Anda.
-4.  **Skalabilitas**: Di proyek besar, TypeScript adalah satu-satunya cara untuk memastikan perubahan di satu sisi tidak merusak sepuluh sisi lainnya secara diam-diam.
-
----
-
-## Struktur Perpustakaan (5-Rack Architecture)
-Repositori ini menggunakan standar **PPM (Perpustakaan Pribadi Modular)** dengan hierarki:
-**Rak -> Sub-Rak -> Buku -> Bab -> Section.**
+## 🏛️ Arsitektur 6-Rak (Universal Standard)
+Repositori ini menggunakan **6-Rack Universal Architecture** dengan prinsip **Digital Mirroring** untuk memisahkan antara fondasi penggunaan dengan dekonstruksi arsitektur mesin.
 
 ```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#3178C6', 'primaryTextColor': '#FFF'}}}%%
 graph TD
     Root["TypeScript Knowledge Base"]
     
-    RAK01["RAK-01-get-started<br/>(The Entry)"]
-    RAK02["RAK-02-the-handbook<br/>(The Heart)"]
-    RAK03["RAK-03-reference<br/>(The Deep)"]
-    RAK04["RAK-04-modules<br/>(The Layer)"]
-    RAK05["RAK-05-declaration-files<br/>(The Authoring)"]
-    RAK06["RAK-06-js-integration<br/>(The Bridge)"]
-    RAK07["RAK-07-project-config<br/>(The Engine)"]
-    RAK08["RAK-08-tutorials<br/>(The Practical)"]
-    RAK09["RAK-09-evolution<br/>(The Pulse)"]
+    RAK01["RAK-01-anatomy<br/>(The Landscape)"]
+    RAK02["RAK-02-foundation<br/>(The Standard Book)"]
+    RAK03["RAK-03-evolution<br/>(History & Future)"]
+    RAK04["RAK-04-core-mechanics<br/>(The Internal Logic)"]
+    RAK05["RAK-05-ecosystem<br/>(The Environment)"]
+    RAK06["RAK-06-compiler<br/>(The Machine Room)"]
     
-    Root --> RAK01
-    Root --> RAK02
-    Root --> RAK03
-    Root --> RAK04
-    Root --> RAK05
-    Root --> RAK06
-    Root --> RAK07
-    Root --> RAK08
-    Root --> RAK09
+    Root --> RAK01 & RAK02 & RAK03 & RAK04 & RAK05 & RAK06
     
-    style Root fill:#3178C6,stroke:#333,stroke-width:4px,color:#fff
-    style RAK01 fill:#bbf,stroke:#333
-    style RAK02 fill:#bbf,stroke:#333
-    style RAK03 fill:#bfb,stroke:#333
-    style RAK04 fill:#bfb,stroke:#333
-    style RAK05 fill:#fbb,stroke:#333
-    style RAK06 fill:#fbb,stroke:#333
-    style RAK07 fill:#eee,stroke:#333
-    style RAK08 fill:#eee,stroke:#333
-    style RAK09 fill:#eee,stroke:#333
+    style Root fill:#3178C6,stroke:#333,stroke-width:4px,color:#FFF
+    style RAK01 fill:#fff,stroke:#333
+    style RAK02 fill:#fff,stroke:#333
+    style RAK03 fill:#fff,stroke:#333
+    style RAK04 fill:#ddd,stroke:#333
+    style RAK05 fill:#fff,stroke:#333
+    style RAK06 fill:#ddd,stroke:#333
 ```
 
 ---
 
-## Roadmap & Status Pengembangan (Draft Plan)
+## 🗄️ Struktur Perpustakaan
 
-| Rak | Deskripsi | Status |
-| :--- | :--- | :--- |
-| `RAK-01-get-started/` | Quickstarts & Backgrounds | *Planned* |
-| `RAK-02-the-handbook/` | Foundations & Logic | *Planned* |
-| `RAK-03-reference/` | Technical Deep Dives | *Planned* |
-| `RAK-04-modules/` | ESM/CJS & Resolution | *Planned* |
-| `RAK-05-declaration-files/` | .d.ts Authoring | *Planned* |
-| `RAK-06-js-integration/` | JSDoc & JS Workflow | *Planned* |
-| `RAK-07-project-config/` | tsconfig.json & Build | *Planned* |
-| `RAK-08-tutorials/` | Framework Specific Guides | *Planned* |
-| `RAK-09-evolution/` | Release Logs & Roadmap | *Planned* |
+### 1. [RAK-01-anatomy](./RAK-01-anatomy/)
+Filosofi tipisasi statis, narasi superset JavaScript, serta keuntungan dan limitasinya.
 
-## Visi Aktif
-Repositori ini bertindak sebagai **"The Brain"** dalam *Master Plan: Polyglot Senior Architect*. Fokus materi murni pada **TypeScript Language & Ecosystem**.
+### 2. [RAK-02-foundation](./RAK-02-foundation/)
+Sintaks dan anomali tipisasi (Primitives, Narrowing, Objects, Interfaces) berdasarkan Handbook.
+
+### 3. [RAK-03-evolution](./RAK-03-evolution/)
+Sejarah versi tsc, deprecations, dan roadmap masa depan TypeScript.
+
+### 4. [RAK-04-core-mechanics](./RAK-04-core-mechanics/)
+Buku besar sistem tipe mekanik: Generics, Mapped Types, Conditional Types, Inference.
+
+### 5. [RAK-05-ecosystem](./RAK-05-ecosystem/)
+Integrasi ekosistem web, tsconfig, Bundler bindings, dan abstraksi `@types`.
+
+### 6. [RAK-06-compiler](./RAK-06-compiler/)
+Deep dive mutlak ke ruang mesin compiler: `tsc` API, AST Generation, Type Checker.
 
 ---
-*Dokumentasi Lengkap & Roadmap: [docs/README.md](./docs/README.md)*
-*Panduan Struktur & Standar: [docs/standards/architecture.md](./docs/standards/architecture.md)*
+
+## 📏 Standar Kualitas (Gold Standard)
+Setiap materi mengikuti prinsip **Digital Mirroring** dan standar **PPM V4** yang mewajibkan:
+1. **Source-Synced**: Akurasi 1:1 terhadap dokumentasi resmi/spesifikasi.
+2. **Experimental Lab**: Kode pembuktian fungsional di folder `examples/`.
+3. **Mental Model Visual**: Diagram Mermaid di folder `assets/`.
+4. **Narrative Excellence**: Penjelasan mendalam dengan analogi dunia nyata.
+
+*Dokumentasi Lengkap Standar: [docs/standards/architecture.md](./docs/standards/architecture.md)*
+
+---
+*Status Pengembangan: [status.md](./status.md)*
