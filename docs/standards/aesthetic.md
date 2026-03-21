@@ -1,21 +1,22 @@
-# Panduan Estetika Visual (TS Edition)
+# Panduan Estetika Visual (JS Edition)
 
-Setiap diagram dan aset visual dalam TypeScript Knowledge Base harus terlihat premium dan konsisten.
+Mencerminkan energi dan interaktivitas web.
 
 ## 1. Skema Warna (Branding)
-- **Primary Color**: `#3178C6` (TS Blue) - Gunakan untuk node utama.
-- **Secondary Color**: `#235A97` (Dark Blue) - Gunakan untuk border atau grup.
-- **Highlight**: `#f0dc4e` (JS Yellow) - Gunakan untuk area integrasi dengan JavaScript.
+- **Primary Color**: `#F7DF1E` (JS Yellow).
+- **Secondary Color**: `#000000` (Classic Black).
+- **Action Color**: `#61DAFB` (React Cyan - optional for frameworks).
 
 ## 2. Standar Mermaid
-Gunakan konfigurasi berikut untuk diagram alur:
+Diagram harus terlihat dinamis dan mengalir:
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#3178C6', 'primaryTextColor': '#fff', 'lineColor': '#235A97'}}}%%
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#F7DF1E', 'primaryTextColor': '#000'}}}%%
 graph TD
-    A[Katedral Tipe] --> B(Kompilasi)
+    A[Event] --> B{Event Loop}
+    B -->|Task| C[Callback Queue]
 ```
 
 ## 3. Simbol Visual
-- **Kotak Tajam**: Mewakili **Interface** atau **Class**.
-- **Oval**: Mewakili **Function** atau **Logic Flow**.
-- **Warna Gradasi**: Digunakan untuk menunjukkan **Type Evolution** atau **Migration**.
+- **Lingkaran Berputar**: Mewakili **Event Loop**.
+- **Warna Kuning**: Digunakan untuk elemen yang bersifat *blocking*.
+- **Warna Transparan**: Digunakan untuk operasi *Background/Asynchronous*.
