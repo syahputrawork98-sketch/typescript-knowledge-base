@@ -1,4 +1,4 @@
-# Konvensi Penamaan & Struktur Folder (JS Edition)
+# Konvensi Penamaan & Struktur Folder (TS Edition)
 
 Untuk menjaga keteraturan "Perpustakaan Dunia Maya", setiap file dan folder wajib mengikuti konvensi penamaan berikut sesuai dengan **Unified Gold Standard**.
 
@@ -6,14 +6,14 @@ Untuk menjaga keteraturan "Perpustakaan Dunia Maya", setiap file dan folder waji
 
 | Level | Prefix | Format | Contoh |
 | :--- | :--- | :--- | :--- |
-| Rak | `RAK-` | `RAK-XX-slug` | `RAK-01-introduction-essence` |
-| Sub-Rak | `SR-` | `SR-XX-slug` | `SR-01-get-started` |
+| Rak | `RAK-` | `RAK-XX-slug` | `RAK-01-anatomy-and-history` |
+| Sub-Rak | `SR-` | `SR-XX-slug` | `SR-01-origin-philosophy` |
 | Buku | `BK-` | `BK-XX_Slug` | `BK-01_Basics` |
-| Bab | `CH-` | `CH-XX_Slug` | `CH-01_JSFirstSteps` |
+| Bab | `CH-` | `CH-XX_Slug` | `CH-01_TSFirstSteps` |
 | Section | `SEC-` | `SEC-XX_Slug` | `SEC-01_Introduction` |
 
 > [!IMPORTANT]
-> **Rak dan Sub-Rak** menggunakan tanda hubung (`-`) untuk slug. 
+> **Rak dan Sub-Rak** menggunakan tanda hubung (`-`) untuk slug.
 > **Buku, Bab, dan Section** menggunakan garis bawah (`_`) untuk memisahkan urutan dengan nama slug.
 
 ## 2. Struktur Internal Unit (Level 5 & 6)
@@ -21,8 +21,8 @@ Untuk menjaga keteraturan "Perpustakaan Dunia Maya", setiap file dan folder waji
 Setiap folder Bab (**CH**) atau Section (**SEC**) memiliki struktur dasar berikut:
 ```text
 CH- atau SEC-/
-├── README.md        <- Materi teks inti berserta diagram Mermaid inline (Target Utama PPM).
-├── examples/        <- Kode lab fungsional multi-file (.js). (Opsional jika "Nil Content")
+├── README.md        <- Materi teks inti beserta diagram Mermaid inline (Target Utama PPM).
+├── examples/        <- Kode lab fungsional multi-file (.ts). (Opsional jika "Nil Content")
 └── assets/          <- Arsip media statis eksternal (.png/.svg). (Opsional)
 ```
 
@@ -32,8 +32,8 @@ CH- atau SEC-/
 
 ## 3. Aturan Penamaan Lab Praktis (`examples/`)
 File di dalam direktori `examples/` **WAJIB** menggunakan *prefix* numerik berurutan untuk menjaga alur pembelajaran lab.
-**Contoh Benar**: `01_basic.js`, `02_advanced_closures.js`, `03_edge_cases.js`.
-**Contoh Salah**: `dasar.js`, `contoh-closure.js`, `test.js`.
+**Contoh Benar**: `01_basic.ts`, `02_advanced_generics.ts`, `03_edge_cases.ts`.
+**Contoh Salah**: `dasar.ts`, `contoh-generic.ts`, `test.ts`.
 
 ## 4. Aturan README.md
 Setiap tingkatan dari Level 2 hingga Level 6 wajib memiliki file `README.md` sebagai hub navigasi atau penyaji materi.
